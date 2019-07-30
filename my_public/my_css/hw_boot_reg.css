@@ -1,0 +1,97 @@
+.logo{
+  background-color: #e8e8e8;
+  height: 4rem;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+.logo>img{
+  width: 11rem;
+  padding: 1rem 1rem;
+}
+.title{
+  height: 4rem;
+  padding: 0.75rem 0;
+}
+.fir{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.fir>span{
+  font-size: 1rem;
+  color: #666;
+}
+.con{
+  width: 100%;
+  height: 42rem;
+  border: 1px solid #e8e8e8;
+  border-bottom: 0;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.nav{
+  height: 3rem;
+  width: 100%;
+  line-height: 1.7;
+  padding-left: 1rem;
+  margin: 0.25rem 0;
+}
+.oneline{
+  width: 100%;
+  height: 2.25rem;
+}
+.text{
+  display: inline-block;
+  width: 22rem;
+  height: 2.25rem;
+  text-align: right;
+  line-height: 2.25rem;
+}
+.text>span{
+  color: #f00;
+}
+.oneline>input{
+  margin-left: 1.5rem;
+  width: 17rem;
+  height: 2.25rem;
+
+}
+#tab1{
+  font-size: 1rem;
+}
+.font{
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.75rem;
+  margin-left: 23.75rem;
+}
+.font>input{
+  margin-right: 0.5rem;
+}
+.btn{
+  width: 8rem;
+  margin-left: 23.75rem;
+  margin-top: 1rem;
+}
+.foot{
+  width: 100%;
+  height: 3rem;
+  border: 1px solid #efefef;
+  border-top: 0;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  background: #efefef;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 10rem;
+}
+.nav-item{
+  visibility: visible;
+}
+.nav-item>a{
+  color: #495057;
+}
+.nav-tabs{
+  margin-bottom: 3rem;
+}

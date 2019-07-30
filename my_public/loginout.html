@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+     <script>
+         alert("您已经退出登录,两秒钟后回到主页面");
+         sessionStorage.removeItem("uname");
+         setTimeout(function(){
+           location.href="my_boot_index.html"
+         },2000)  
+      </script>
+</body>
+</html>

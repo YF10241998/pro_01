@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <!--导入css-->
+    <link rel="stylesheet" href="./my_css/bootstrap.css"/>
+    <!--导入3个js,有顺序要求-->
+    <script src="./my_js/jquery-3.2.1.js"></script>
+    <script src="./my_js/popper.min.js"></script>
+    <script src="./my_js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./my_css/hw_comm.css"/>
+    <link rel="stylesheet" href="./my_css/hw_boot_reg.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="./myo_img/huawei_logo.png">
+    </div>
+    <div class="title row">
+        <div class="fir col-3 ml-4">
+            注册
+            <span>注册新的账号</span>
+        </div>
+        <div class="dl col-1 offset-7">
+            <a href="http://127.0.0.1:5500/my_public/my_boot_login.html">登录</a>
+        </div>
+    </div>
+    <div class="con">
+        <ul class="nav nav-tabs">
+            <li class="active nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab1">新用户注册</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="tab1" class="tab-pane active">
+                <div class="oneline mb-2">
+                    <div class="text">
+                        账号<span>*</span>
+                    </div>
+                    <input type="text" name="uname" id="uname" onblur="uname()"/>
+                    <span id="errName"></span>
+                </div>
+                <div class="oneline mb-2">
+                    <div class="text">
+                        电子邮箱<span>*</span>
+                    </div>
+                    <input type="text" id="email" onblur="email()"/>
+                    <span id="errEmail"></span>
+                </div>
+                <div class="oneline mb-2">
+                    <div class="text">
+                        密码<span>*</span>
+                    </div>
+                    <input type="password" id="upwd" onblur="upwd()"/>
+                    <span id="errPwd"></span>
+                </div>
+                <div class="oneline mb-2">
+                    <div class="text">
+                        确认密码<span>*</span>
+                    </div>
+                    <input type="password" id="qrUpwd" onblur="qrpwd()"/>
+                    <span id="errqr"></span>
+                </div>
+                <div class="oneline mb-2">
+                    <div class="text">
+                        联系方式<span>*</span>
+                    </div>
+                    <input type="text"  id="phone" onblur="phone()"/>
+                    <span id="errPhone"></span>
+                </div>
+                <div class="oneline mb-2">
+                    <div class="text">
+                        中文姓名<span>*</span>
+                    </div>
+                    <input type="text"  id="user_name" onblur="username()"/>
+                    <span id="errUsername"></span>
+                </div>
+                
+               
+                
+                <div class="font">
+                    <input type="checkbox"/><span>*</span>我已阅读并同意
+                    <a href="https://uniportal.huawei.com/accounts/registration/Registration_v1_zh_CN.jsp">
+                        华为公司用户注册协议
+                    </a>和隐私声明
+                </div>
+                <button class="btn" onclick="reg()">注册</button>
+                <div class="foot">
+                    Uniportal是华为公司对外提供身份认证的唯一入口，在使用华为公司的其他对外服务时，您的Uniportal帐号和登录信息会被共享。
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    <script src="./my_js/hw_reg.js"></script>
+</body>
+</html>

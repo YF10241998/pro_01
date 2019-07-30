@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <!--导入css-->
+    <link rel="stylesheet" href="./my_css/bootstrap.css"/>
+    <!--导入3个js,有顺序要求-->
+    <script src="./my_js/jquery-3.2.1.js"></script>
+    <script src="./my_js/popper.min.js"></script>
+    <script src="./my_js/bootstrap.js"></script>
+    <link rel="stylesheet" href="./my_css/hw_comm.css"/>
+    <link rel="stylesheet" href="./my_css/hw_boot_login.css"/>
+    <script src="./my_js/axios.min.js"></script>
+    <script src="./my_js/hw_login.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="head_login text-center mt-4">
+        <a href="./my_boot_index.html">
+            <img src="./myo_img/huawei_logo.png" alt=""/>
+        </a>
+    </div>
+    <div class="mian">
+        <div class="row mx-0">
+            <div class="col-lg-6 offset-lg-3 col-sm-8 offset-sm-2">
+                <div class="content mt-4">
+                    <h2 class="font-weight-bold mb-4 d-inline-block">请登录</h2>
+                    <div class="hw_login">
+                        <div class="user">
+                            <label for="userName">账号/邮箱*</label><br/>
+                            <input class="w-100 pl-3" type="text" id="uname" name="uname" placeholder="请输入账号/邮箱"/>
+                        </div>
+                        <div class="upwd mt-4">
+                            <label for="userPwd">密码*</label><br/>
+                            <input class="w-100 pl-3" type="password" id="upwd" name="upwd" placeholder="请输入密码"/>
+                        </div>
+                        <div id="errormessage"></div>
+                        <a class="d-block mt-2" href="#">忘记密码</a>
+                        <div id="btn" onclick="login()" class="btn badge-danger w-100 mt-4">登录</div>
+                        <div class="text-center mt-3">
+                            <a class="text-dark" href="reg.html">立即注册 ></a>
+                            <hr/>
+                        </div>
+                        <div class="through text-center">
+                            <span>通过其它方式登录:</span>
+                            <ul class="mt-2">
+                                <li class="d-inline">
+                                    <a href="#"><img src="./myo_img/weixin-copy.png" alt=""/></a>
+                                </li>
+                                <li class="d-inline">
+                                    <a href="#"><img src="./myo_img/in%20(1).png" alt=""/></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="foot">
+                            <img src="./myo_img/fankui.png" alt=""/>
+                            <a class="text-dark" href="#">获取更多帮助?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

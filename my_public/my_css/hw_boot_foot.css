@@ -1,0 +1,41 @@
+.footer,
+.footer2,
+.footer3{
+    background-color: #e8e8e8;
+}
+.footer>div>div>div>ul>li>a,
+.footer2>div>div>div>ul>li>a,
+.footer3>div>div>div>ul>li>a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+}
+@media screen and (min-width: 992px) {
+    .footer>div>div>div>ul,
+    .footer>div>div>div>h3,
+    .footer2>div>div>div>ul,
+    .footer2>div>div>div>h3,
+    .footer3>div>div>div>ul,
+    .footer3>div>div>div>h3{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+}
+.footer>div:nth-child(2)>ul>li>a>img{
+    width: 1rem;
+}
+@media screen and (min-width: 992px) {
+    .footer>div:nth-child(2)>ul{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .footer2>div>div>div:nth-child(2)>ul,
+    .footer2>div>div>div:nth-child(3)>ul,
+    .footer2>div>div>div:nth-child(4)>ul,
+    .footer3>div>div>div:nth-child(2)>ul,
+    .footer3>div>div>div:nth-child(3)>ul,
+    .footer3>div>div>div:nth-child(4)>ul{
+        margin-top: 3.25rem;
+    }
+}

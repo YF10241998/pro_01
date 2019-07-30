@@ -1,0 +1,59 @@
+.header>div:nth-child(2)>img,.header>div:nth-child(3)>img{
+    width: 1rem;
+}
+.header>div:nth-child(1)>a,
+.header>div:nth-child(2)>a,
+.header>div:nth-child(2)>span,
+.header>div:nth-child(3)>a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header_2{
+    height: 3.5rem;
+}
+.header_2>div:nth-child(1)>img{
+    width: 7rem;
+}
+.header_2>div:nth-child(2)>div>div>img,
+.header_2>div:nth-child(3)>div>div:nth-child(2)>img{
+    width: 2rem;
+}
+.header_2>div:nth-child(2)>div>div>a,
+.header_2>div:nth-child(3)>div>div>a{
+    color: #000000;
+    text-decoration: none;
+}
+.header_2>div:nth-child(3)>div>div>a>img,
+.header_2>div:nth-child(3)>div>div>img{
+    width: 1.5rem;
+}
+@media screen and (min-width: 992px){
+    .header_2>div:nth-child(1)>img{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+}
+@media screen and (min-width: 992px){
+    .header_2>div:nth-child(2)>div>div>img{
+        margin-top: -0.25rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .header_2>div:nth-child(2)>div>div>a,
+    .header_2>div:nth-child(3)>div>div>a{
+        line-height: 3.5rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .header_2>div:nth-child(3)>div>div>a>img{
+        margin-left: 0.25rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .header_2>div:nth-child(3)>div>div>img{
+        margin-top: 1rem;
+    }
+}
+#msg{
+    color: bisque;
+}
